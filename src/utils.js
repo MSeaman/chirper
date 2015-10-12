@@ -1,5 +1,7 @@
 var crypto = require('crypto');
 
+//enables gravatar to grab avatars from the user's email
+
 exports.avatar = function (email) {
     if (!email) return '';
 

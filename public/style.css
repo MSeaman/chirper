@@ -1,8 +1,17 @@
+body {
+    background-image: url(lib/assets/background.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
 .chirp {
     list-style-type: none;
     padding: 6px;
     border: 1px solid #d1d1d1;
     border-radius: 4px;
+    background-color: white;
 }
 
 .chirp p {
@@ -23,4 +32,20 @@
         border-radius: 4px;
         width: 100%;
     }
+}
+
+.three.columns li {
+    background-color: #1EAEDB;
+    border-radius: 4px;
+    list-style-type: none;
+}
+
+.three.columns a {
+    text-decoration: none;
+    color:white;
+    padding-left: 1rem;
+}
+
+.three.columns a:hover {
+    color:darkblue;
 }
